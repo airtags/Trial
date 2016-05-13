@@ -1,0 +1,284 @@
+.section2 {
+  width: auto;
+  height: 850px;
+  background-color: #E6E5E5;
+}
+.section2 .picture {
+  /* width: 100%; */
+  margin-top: 65px;
+  display: flex;
+}
+.section2 .picture .p1 {
+  width: 100%;
+  margin-right: 0px;
+  position: relative;
+}
+.section2 .picture .p1 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.section2 .picture .p1 .flag {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.section2 .picture .p1 .flag img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.section2 .picture .p1 .flag a:hover img {
+  opacity: 0.7;
+  background-color: #4B17DC;
+  transition: opacity 0.2s ease-in-out;
+}
+.flag2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.flag2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.flag2 a:hover img {
+  opacity: 0.7;
+  background-color: #E42929;
+  transition: opacity 0.2s ease-in-out;
+}
+.flag3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.flag3 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.flag3 a:hover img {
+  opacity: 0.7;
+  background-color: #496ABF;
+  transition: opacity 0.2s ease-in-out;
+}
+.flag4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.flag4 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.flag4 a:hover img {
+  opacity: 0.7;
+  background-color: #35D365;
+  transition: opacity 0.2s ease-in-out;
+}
+.bt {
+  width: auto;
+  height: 100%;
+  text-align: center;
+  line-height: 200px;
+  padding-top: 0px;
+}
+.bt .button {
+  width: 274px;
+  height: 60px;
+  background: url("../img/button.png") right no-repeat;
+  background-size: 27px 20px;
+  background-color: #2DB3A7;
+  border-radius: 40px;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+}
+.bt a:hover {
+  opacity: 0.5;
+}
+.tw2 {
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 110px;
+}
+.tw2 p {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 500;
+  color: #898181;
+  font-size: 15px;
+}
+.section3 {
+  width: auto;
+  height: 1100px;
+  background-color: #EF7070;
+}
+.section3 .picture_word {
+  width: 1000px;
+  height: 800px;
+  margin: 0px auto;
+}
+.section3 .picture_word .picture_header {
+  padding-top: 126px;
+  text-align: center;
+}
+.section3 .picture_word .content {
+  display: flex;
+  margin-top: 70px;
+}
+.section3 .picture_word .content .word {
+  font-weight: bold;
+  font-size: 25px;
+  color: #F0EEEE;
+  margin-right: 140px;
+  margin-left: 140px;
+  text-align: center;
+  /* 设置行间距 */
+}
+.section3 .picture_word .content .word p {
+  line-height: 30px;
+}
+.section3 .picture_word .content .word cite {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+.section4 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.section4 .left {
+  width: 33%;
+  height: 500px;
+  background-color: #4898AD;
+  padding-left: 100px;
+  line-height: 50px;
+  padding-top: 100px;
+  color: White;
+  font-family: "微软雅黑";
+}
+.section4 .left .word {
+  width: 380px;
+  height: 500px;
+  text-align: left;
+}
+.section4 .left .word a {
+  color: White;
+  font-size: 20px;
+  font-weight: bold;
+}
+.section4 .left .word p {
+  font-weight: 500;
+}
+.between {
+  width: 32%;
+  height: 500px;
+}
+.between .bt_word {
+  padding-left: 20px;
+  padding-top: 100px;
+  font-family: "微软雅黑";
+  line-height: 30px;
+}
+.between .bt_word h2 {
+  padding-bottom: 50px;
+}
+.between .bt_word h2 a {
+  text-decoration: none;
+  color: #392C2C;
+  font-size: 20px;
+  font-weight: 500;
+}
+.between .bt_word .bt1 {
+  padding-top: 20px;
+}
+.between .bt_word .bt1 .button {
+  width: 159px;
+  height: 41px;
+  background: url("../img/button.png") right no-repeat;
+  background-size: 27px 20px;
+  background-color: #695F5F;
+  border-radius: 40px;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+}
+.between .bt_word .bt1 a:hover {
+  opacity: 0.5;
+}
+.p3 {
+  color: #D2C4C4;
+  padding-bottom: 26px;
+  font-size: 15px;
+}
+.p2 {
+  color: #D2C4C4;
+  font-size: 15px;
+}
+.right {
+  width: 35%;
+  height: 500px;
+}
+.right .bt_word2 {
+  padding-left: 20px;
+  padding-top: 100px;
+  font-family: "微软雅黑";
+  line-height: 30px;
+}
+.right .bt_word2 .bird {
+  padding-bottom: 35px;
+}
+.right .bt_word2 .bird a {
+  color: #327BC8;
+  text-decoration: none;
+}
+.right .bt_word2 .p2 a {
+  text-decoration: none;
+  color: #327BC8;
+}
+.right .bt1 {
+  padding-top: 20px;
+}
+.right .bt1 .button {
+  width: 159px;
+  height: 41px;
+  background: url("../img/button.png") right no-repeat;
+  background-size: 27px 20px;
+  background-color: #327BC8;
+  border-radius: 40px;
+  font-family: "adobe-garamond-pro", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+}
+.right .bt1 a:hover {
+  opacity: 0.5;
+}
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #E3DBDB;
+}
+footer p {
+  font-family: "微软雅黑";
+  color: #A79999;
+  padding-left: 50px;
+  line-height: 150px;
+}
